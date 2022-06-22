@@ -47,8 +47,14 @@ p {
   padding-inline: 0.9rem;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 580px) {
   .object {
     max-width: 80vw;
+  }
+}
+
+@media screen and (min-width: 581px) and (max-width: 1000px) {
+  .object {
+    max-width: 40vw;
   }
 }
