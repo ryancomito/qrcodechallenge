@@ -47,7 +47,7 @@ p {
   padding-inline: 0.9rem;
 }
 
-@media screen and (min-width: 1439px) {
+@media screen and (max-width: 1439px) {
   .object {
     max-width: 80vw;
   }
